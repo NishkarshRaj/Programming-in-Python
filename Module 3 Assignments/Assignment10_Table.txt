@@ -1,0 +1,7 @@
+DROP TABLE product;
+CREATE TABLE product (productid VARCHAR2(10), type varchar2(15), price NUMBER, quantity NUMBER);
+INSERT INTO product VALUES('P101', 'Sweets', 1000, 10);
+INSERT INTO product VALUES('P102', 'Cereals', 500, 15);
+INSERT INTO product VALUES('P103', 'Vegetables', 300, 30);
+INSERT INTO product VALUES('P104', 'Fruits', 750, 25);
+COMMIT;

@@ -1,0 +1,8 @@
+print("First program of File Handling")
+nish=open("Bitw.txt","w",1)
+print("Name of the file is:",nish.name)
+print("Mode opened for file is:",nish.mode)
+print("Is the file closed?",nish.closed)
+s=input("Enter a string you want to add in a file: ")
+nish.write(s)
+nish.close()

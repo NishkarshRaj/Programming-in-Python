@@ -1,0 +1,2 @@
+Number of words in the file are 29Unique occurences are:
+{'a': 1, 'fun': 1, 'horse': 1, 'open': 1, 'it': 1, 'in': 1, 'sleigh': 1, 'is': 1, 'all': 2, 'oh': 1, 'the': 2, 'one': 1, 'to': 1, 'ride': 1, 'jingle': 6, 'way': 2, 'what': 1, 'bells': 4}

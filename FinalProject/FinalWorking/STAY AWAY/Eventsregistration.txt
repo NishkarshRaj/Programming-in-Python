@@ -1,0 +1,6 @@
+insert into events values ('Hackathon','Nishkarsh Raj',10000,'Technical');
+insert into events values ('CodingMachine','Lakshika Parihar',2000,'Technical');
+insert into events values ('FindTheBug','Shubham Bansal',500,'Technical');
+insert into events values ('TreasureHunt','Dr. Monit Kapoor',1000,'Public Relations');
+insert into events values ('Kakiri Bashi','Ms. Kalpana Rangra',2000,'Events');
+insert into events values ('Literature Meet','Dr. Rati Oberai',500,'Editorial');

@@ -1,0 +1,240 @@
+Module 1
+50 Assignments
+45 hours
+162 non graded quiz
+1 minor project
+
+Assessment will be done in the end.
+50 percent of the assessment will be done on module 4 project+presentation
+50 percent is written examination (2x)
+
+Word File to be maintained: (Assignment for each module)
+Question+Solution+Snapshots
+Submitted on blackboard.
+
+Anaconda
+Eclipse //
+Pycharm
+
+Oracle.
+
+
+
+Python is a programmig as well as a scripting language.
+Interpreted
+Oops
+Short and easy language
+open source and free
+
+comments==documentation
+# signle line start and end
+''' or  """ triple single quotes start and end
+
+use next line for continuation:: end line with backslash \
+
+statements with () {} [] dont need \ for next line
+
+python is case sensitive
+
+print(" ",data type)
+semicolon not needed
+
+format specifiers not needed
+print uses line concatenation
+print("abc",10) answer= abc 10 (automatic space added)
+
+
+inside print both single and double quotes can be used.
+
+Two ways to print
+print("%20s:%d"%('python',3000.34))
+
+similar terminal as used in SQLPlus
+
+Single variable has no data type. automatic assignment
+Reference variable is object overhead.
+type(variable)
+write print(type(var)) for scripting.
+
+string variable with mathematics
+* concates same string without space n times
++ error
+string + number is error
+string+string is concatenation
+
+scanning a value
+input method
+variable=input("message to user")
+Every Input is a string by default
+Typecase during or after the insertion
+var=type(input())
+or
+after
+var=type(var)
+
+Tokens
+1) Identifiers
+same naming mechanism like C++ but see that Python keywords are different
+no declaration
+automatic assignment of data type
+
+x=a+bj
+a=real
+b=imaginary
+j=iota representation
+print(x.real)
+print(x.imag)
+
+Different data types
+integer
+complex
+float
+string
+boolean (True,False) //case sensitivity
+
+2) Operators
+2.1)Arithmetic
+truncation division // gives integer quotation whereas mod % gives remainder
+exponentiation ** 
+3**2=9
+2.2) Reltional
+<> similar to not equal to !=
+2.3) Assignment and Uniary Assignment operators also called shorthand assignment.
+BCD assignment operator
+a*=b+5 == a*=(b+5)
+
+a=b=c=10 is allowed
+a,b=2,5
+
+swap values
+a,b=b,a
+
+2.4) Binary Operators
+And
+Or
+Xor
+Ones Complemetnt
+left shift
+right shift
+
+2.5) logical
+and
+or 
+not
+write like this it has no symbol all small
+
+2.6) Membership operators simlilar to SQL
+In
+not in
+2.7) Identity Operators
+ compare memory location
+is 
+not is
+memory location is given by id(var)
+here value is not of variable because it changes with values
+here values have address and the current variable is attached to it.
+id("hello")
+1)hence multiple variables having same value will point to same value hence memory is saved.
+2)Comparison: If address is same values are same
+
+Indentation
+no blocks are required
+indentations (tabs) are needed for the current block
+example
+if x>5: //condition can be without parenthesis
+	//if block
+else:
+	//else block
+elif cond: //else if is shortened 
+
+no switch case here
+
+Looping
+only entry
+
+For and while
+
+While
+while condition:
+	statements
+in looping every print automatically goes in next line
+
+Increment operator is not used
+
+
+
+
+
+
+
+
+Python Operators Precedence
+The following table lists all operators from highest precedence to lowest.
+
+[ Show Example ]
+
+Sr.No.	Operator & Description
+1	
+**
+
+Exponentiation (raise to the power)
+
+2	
+~ + -
+
+Complement, unary plus and minus (method names for the last two are +@ and -@)
+
+3	
+* / % //
+
+Multiply, divide, modulo and floor division
+
+4	
++ -
+
+Addition and subtraction
+
+5	
+>> <<
+
+Right and left bitwise shift
+
+6	
+&
+
+Bitwise 'AND'
+
+7	
+^ |
+
+Bitwise exclusive `OR' and regular `OR'
+
+8	
+<= < > >=
+
+Comparison operators
+
+9	
+<> == !=
+
+Equality operators
+
+10	
+= %= /= //= -= += *= **=
+
+Assignment operators
+
+11	
+is is not
+
+Identity operators
+
+12	
+in not in
+
+Membership operators
+
+13	
+not or and
+
+Logical operators

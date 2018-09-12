@@ -1,0 +1,33 @@
+insert into committee values ('Public Relations','Shubham','Shubham');
+insert into committee values ('Technical','Lakshika','Lakshika');
+insert into committee values ('Events','Shubham','Shubham');
+insert into committee values ('Editorial','Nishkarsh','Nishkarsh');
+insert into committee values ('Designing','Nishkarsh','Nishkarsh');
+insert into committee values ('Registration','Lakshika','Lakshika');
+
+
+insert into goals values ('Public Relations','To create excellent public relation with the entire community!');
+insert into goals values ('Technical','To create best techinal applications using latest technologies.');
+insert into goals values ('Events','To conduct excellent events including gaming, hackathons, seminars etc.');
+insert into goals values ('Editorial','Writing relevant content about latest trends in our field.');
+insert into goals values ('Designing','Designing the future of this Student Chapter and how to Evolvve it!');
+insert into goals values ('Registration','Registering the students for events!!!');
+
+
+insert into positions values ('Founder');
+insert into positions values ('President');
+insert into positions values ('Vice-President');
+insert into positions values ('Ace');
+insert into positions values ('Apprentice');
+insert into positions values ('WorkHorse');
+
+
+insert into committee_members values('Techincal','Shubham','President');
+insert into committee_members values('Technical','Nishkarsh','Ace');
+insert into committee_members values('Technical','Lakshika','Vice-President');
+
+
+
+
+
+

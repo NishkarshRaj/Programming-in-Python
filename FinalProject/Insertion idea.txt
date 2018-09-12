@@ -1,0 +1,8 @@
+1) member signup 500 atleast
+2) all committee from Gmail
+3) goals from 2 can be multiple due to normalization
+4) positions one can attain in core committee
+5) committee members 10 in each min
+6) events 4 min
+7) participation min 10 teams and max 25 in each event
+8) expand

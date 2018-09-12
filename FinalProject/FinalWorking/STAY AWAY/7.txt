@@ -1,0 +1,9 @@
+Cybersecurity, computer security or IT security is the protection of computer systems from theft of or damage to their hardware, software or electronic data, as well as from disruption or misdirection of the services they provide.
+
+Cybersecurity includes controlling physical access to system hardware, as well as protecting against harm that may be done via network access, malicious data and code injection.Also, due to malpractice by operators, whether intentional or accidental, IT security personnel are susceptible to being tricked into deviating from secure procedures through various methods of social engineering.
+
+The field is of growing importance due to increasing reliance on computer systems, the Internet and wireless networks such as Bluetooth and Wi-Fi, and due to the growth of "smart" devices, including smartphones, televisions and the various tiny devices that constitute the Internet of Things. Professionals working in the cybersecurity field can be known by some of the following terms:
+
+White hat hacker – also known as an "ethical hacker" or penetration tester. They are professional hackers that break into systems and use exploits to access target systems for reasons pertaining to prevention of crime or hardening the security of a target.
+Black hat hacker – a criminal who breaks into systems and compromises security against the law.
+Grey hat hacker – someone who conducts black hat hacks for white hat hacker reasons.

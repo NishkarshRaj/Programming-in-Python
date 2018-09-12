@@ -1,0 +1,74 @@
+create table Users
+(firstname varchar(12), 
+lastname varchar(12),
+username varchar(20) unique,
+userid int primary key,
+password varchar(15),
+email varchar(20) unique not null);
+
+
+create table pictures 
+(
+filename varchar(20) primary key,
+path varchar(20) unique not null,
+username varchar(20),
+date_posted date,
+day_posted varchar(10),
+foreign key (username) references Users(username)
+);
+
+
+create table picture_details
+(
+filename varchar(20) unique not null,
+picture_id int primary key,
+user_posted varchar(20),
+caption varchar(140),
+foreign key (user_posted) references Users(username)
+foreign key (filename) references pictures(filename)
+);
+
+
+create table tagofgenre
+(
+tagname varchar(20),
+pic_id int,
+foreign key (pic_id) references picture_details (picture_id)
+foreign key (tagname) references tagavailable(tagname)
+primary key(tagname,pic_id)
+);
+
+
+create table tagavailable
+(
+tagname varchar(20) primary key
+);
+
+
+create table tagofpeople
+(
+pic_id int,
+user_tagged varchar(20),
+foreign key (pic_id) references picture_details (picture_id),
+foreign key (user_tagged) references Users (username),
+primary key (pic_id,user_tagged)
+);
+
+
+create table likes
+(
+liked_by_username varchar (20),
+pic_id int,
+user_owner int,
+foreign key (user_owner) references Users(userid),
+foreign key (pic_id) references picture_details(picture_id),
+foreign key (liked_by_username) references Users (username),
+primary key (liked_by_username,pic_id)
+);
+
+
+
+
+
+
+

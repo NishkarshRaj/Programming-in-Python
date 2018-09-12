@@ -1,0 +1,7 @@
+“A great student is one who imagines and adds value to every work he/she does based on knowledge rather than learn what is taught to him/her”
+In order to become an extraordinary student, one must get involved in co-curricular activities and must be aware of each and every new practice in one’s field. 
+This is where Student Chapters in college becomes so important. Apart from the regular studies, they allow us to dwell deep into our field by making us work on project in a practical way, help us by competing against and with each other making us learn importance of teamwork, time management etc.
+Our project is related to create a generic working application of Student Chapter body because it is something we could relate to and want to do in future to enhance our talents.
+Here, we create a Sign Up page where all the members must create account to access the application and their details would be stored in a Database connected with programming.
+The SapId and stored password would allow them to access their account.
+Future events, support page, recent trends and news will be shared on the account page.

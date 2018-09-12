@@ -1,0 +1,11 @@
+1) Recent Trends
+2) Artificial Intelligence
+3) Augmented Reality
+4) Big Data
+5) Block Chain
+6) Cloud Computing
+7) Cyber Security
+8) DevOps
+9) IOT
+10) Robotics
+11) Virtual Reality
